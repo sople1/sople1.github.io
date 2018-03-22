@@ -4,7 +4,11 @@ title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+
+[개인 사이트](https://snooey.net)
+
+
+이 페이지는 Jekyll 및 Minima 테마를 이용하였습니다.
 
 You can find the source code for Minima at GitHub:
 [jekyll][jekyll-organization] /
