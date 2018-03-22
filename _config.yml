@@ -14,6 +14,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: Snooey의 기술적 잡담
+author: SnooeyNET
 email: sople1@snooey.net
 description: >- # this means to ignore newlines until "baseurl:"
   기술적으로 끄적이고 싶을 때마다 끄적입니다.
