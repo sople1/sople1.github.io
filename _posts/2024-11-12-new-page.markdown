@@ -2,7 +2,7 @@
 layout: post
 title:  "새 Jekyll, Action 적용"
 date:   2024-11-12 22:23:20 +0900
-categories: jekyll update, github
+categories: jekyll update github 'github action'
 ---
 GitHub 정리하다보니 6년이나 Jekyll 블로그를 방치한 것을 알게 되어 새로 세팅.
 branch도 master에서 main으로 바꾸어 적용했다.
