@@ -20,9 +20,9 @@ layout: default
   </div>
 
   <div class="category" itemprop="categories">
-    {% for category in page.categories % }
+    {%- for category in page.categories -%}
       <a href="{{ site.url }}/category/{{ category }}.html" >{{ category }}</a>
-    {% endfor %}
+    {%- endfor -%}
   </div>
 
   {%- if site.disqus.shortname -%}
