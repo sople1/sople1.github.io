@@ -1,0 +1,11 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../../../../../opt/homebrew/lib/ruby/gems/3.3.0/gems/minima-2.5.2"
+		}
+	],
+	"settings": {}
+}
