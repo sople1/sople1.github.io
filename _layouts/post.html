@@ -19,7 +19,7 @@ layout: default
     {{ content }}
   </div>
 
-  <div class="category" itemprop="categories">
+  <div class="post-category" itemprop="categories">
     {%- for category in page.categories -%}
       <a href="{{ site.url }}/category/{{ category }}.html" >{{ category }}</a>
     {%- endfor -%}
