@@ -22,7 +22,7 @@ layout: default
   <div class="post-category" itemprop="categories">
     <h2 class="post-category-head">Categories in this Post</h1>
     {%- for category in page.categories -%}
-      <a href="{{ site.url }}/category/{{ category }}.html" >{{ category }}</a>
+      <a href="{{ "/category/" + ( category | replace " ", "-" ) + ".html" | relative_url }}" >{{ category }}</a>
     {%- endfor -%}
   </div>
 
