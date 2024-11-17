@@ -22,8 +22,7 @@ layout: default
   <div class="post-category" itemprop="categories">
     <h2 class="post-category-head">Categories in this Post</h1>
     {%- for category in page.categories -%}
-      {%- assign categroy_urlencoded = category | replace " ", "-" -%}
-      <a href="{{ "/category/" + categroy_urlencoded + ".html" | relative_url }}" >{{ category }}</a>
+      <a href="{{ "/category/" + ( category | replace: " ", "-" ) + ".html" | relative_url }}" >{{ category }}</a>
     {%- endfor -%}
   </div>
 
