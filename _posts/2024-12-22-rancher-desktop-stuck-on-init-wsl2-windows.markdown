@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "새 Jekyll, Action 적용"
+title:  "WSL2 환경에서 Rancher Desktop 실행 문제"
 date:   2024-12-22 00:08:47 +0900
 categories: [wsl2, wsl, 'windows subsystem for linux', docker, moby, mobyd, windows]
 ---
